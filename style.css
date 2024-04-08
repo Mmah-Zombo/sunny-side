@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+    background-image: url('./images/desktop/sliced-orange.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.graphic {
+    background-image: url('./images/desktop/cherries.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.photography {
+    background-image: url('./images/desktop/orange.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.milk {
+    background-image: url('./images/desktop/milkbottles.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.orange {
+    background-image: url('./images/desktop/orange2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cone {
+    background-image: url('./images/desktop/cone.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sugar {
+    background-image: url('./images/desktop/sugarcubes.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Mobile View */
+@media (max-width: 640px) {
+    header {
+        background-image: url('./images/mobile/image-header.jpg');
+    }
+
+    .graphic {
+        background-image: url('./images/mobile/mcherry.jpg');
+    }
+
+    .photography {
+        background-image: url('./images/mobile/morange.jpg');
+    }
+
+    .milk {
+        background-image: url('./images/mobile/mmilkbottles.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .orange {
+        background-image: url('./images/mobile/morange2.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .cone {
+        background-image: url('./images/mobile/mcone.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .sugar {
+        background-image: url('./images/mobile/mcube.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}

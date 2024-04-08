@@ -1,0 +1,18 @@
+The command for changing the color theme:
+
+ctrl + shift + p
+search for color theme and select it
+
+
+To change the icon:
+
+ctrl + shift + p
+search for icon
+
+To save the changes made to a file:
+
+ctrl + s
+hi
+this is it
+
+my name is Zombo
